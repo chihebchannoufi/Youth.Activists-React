@@ -16,7 +16,7 @@ function Contact() {
               <h3 className="card-title">Find Us</h3>
               <div className="mb-3">
                 <FontAwesomeIcon icon={faEnvelope} className="me-2" />
-                <a href="mailto:example@email.com" className="text-decoration-none text-dark">example@email.com</a>
+                <a href="mailto:example@email.com" className="text-decoration-none text-dark">mustiyouthactivists@gmail.com</a>
               </div>
               <div>
                 <FontAwesomeIcon icon={faPhone} className="me-2" />
