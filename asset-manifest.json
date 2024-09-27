@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/chihebchannoufi/Youth.Activists-React.git/static/css/main.ded95ae1.css",
+    "main.js": "/chihebchannoufi/Youth.Activists-React.git/static/js/main.852311ca.js",
+    "static/media/back.jpg": "/chihebchannoufi/Youth.Activists-React.git/static/media/back.143bb850dd2774a9127b.jpg",
+    "index.html": "/chihebchannoufi/Youth.Activists-React.git/index.html",
+    "main.ded95ae1.css.map": "/chihebchannoufi/Youth.Activists-React.git/static/css/main.ded95ae1.css.map",
+    "main.852311ca.js.map": "/chihebchannoufi/Youth.Activists-React.git/static/js/main.852311ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ded95ae1.css",
+    "static/js/main.852311ca.js"
+  ]
+}
