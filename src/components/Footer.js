@@ -15,9 +15,9 @@ function Footer() {
             <h5>Follow Us</h5>
             <div className="social-icons">
               <a href="https://www.facebook.com/YouthActivistsOrganisation" className="text-white me-3"><FontAwesomeIcon icon={faFacebookF} /></a>
-              <a href="#" className="text-white me-3"><FontAwesomeIcon icon={faTwitter} /></a>
+              <a href="https://x.com/home" className="text-white me-3"><FontAwesomeIcon icon={faTwitter} /></a>
               <a href="https://www.instagram.com/youth_activist/" className="text-white me-3"><FontAwesomeIcon icon={faInstagram} /></a>
-              <a href="#" className="text-white"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+              <a href="https://www.linkedin.com/feed/" className="text-white"><FontAwesomeIcon icon={faLinkedinIn} /></a>
             </div>
           </div>
         </div>

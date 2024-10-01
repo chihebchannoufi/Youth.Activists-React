@@ -6,7 +6,7 @@ const portfolioItems = [
     id: 1,
     title: "Co-Laurier",
     image: "/images/Co-Laurier1.jpg",
-    description: "Le projet Co-Laurier est un espace de co-working moderne, équipé des dernières technologies et aménagements (informatique, robotique, musique, bureaux partagés, salle de réunion et de formation...). C'est le premier espace de ce genre à Ksar Helal, visant à offrir un environnement de travail respectueux et adéquat pour les jeunes de la région. Ce projet est financé par le Ministère des Affaires Étrangères polonais."
+    description: "Le projet Co-Laurier est un espace de co-working moderne, équipé des dernières technologies et aménagements (informatique, robotique, musique, bureaux partagés, salle de réunion et de formation...). C'est le premier espace de ce genre à Krib, visant à offrir un environnement de travail respectueux et adéquat pour les jeunes de la région. Ce projet est financé par le Ministère des Affaires Étrangères polonais."
   },
   {
     id: 2,

@@ -10,6 +10,8 @@ function Home() {
       <Container className="text-center mb-5">
         <h1 className="display-4 mb-4">Welcome to Youth Activists!</h1>
         <h2 className="h3 mb-4">Nonprofit Organization</h2>
+        <br></br>
+        <br></br>
         <Link to="/inscription" className="btn btn-light btn-lg mb-3">Join Our Community</Link>
         <p className="lead">Be part of something bigger</p>
       </Container>
