@@ -56,7 +56,7 @@ function Navbar() {
             </button>
             <ul className="dropdown-menu dropdown-menu-end">
               <li>
-                <Link to="/login" className="dropdown-item" onClick={() => setIsOpen(false)}>
+                <Link to="http://127.0.0.1:8000/login" className="dropdown-item" onClick={() => setIsOpen(false)}>
                   <FontAwesomeIcon icon={faLock} /> Espace Membre
                 </Link>
               </li>
