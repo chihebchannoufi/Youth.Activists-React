@@ -1,14 +1,23 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCog, faLock } from '@fortawesome/free-solid-svg-icons';
+import { faCog, faLock, faHome, faInfoCircle, faUsers, faProjectDiagram, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
+
+  const navItems = [
+    { to: '/', text: 'Home', icon: faHome },
+    { to: '/about', text: 'About', icon: faInfoCircle },
+    { to: '/clubs', text: 'Club', icon: faUsers },
+    { to: '/projects', text: 'Projet', icon: faProjectDiagram },
+    { to: '/contact', text: 'Contact', icon: faEnvelope },
+  ];
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -29,21 +38,18 @@ function Navbar() {
         </button>
         <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNav">
           <ul className="navbar-nav mx-auto">
-            <li className="nav-item">
-              <Link to="/" className="nav-link" onClick={() => setIsOpen(false)}>Home</Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/about" className="nav-link" onClick={() => setIsOpen(false)}>About</Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/clubs" className="nav-link" onClick={() => setIsOpen(false)}>Club</Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/projects" className="nav-link" onClick={() => setIsOpen(false)}>Projet</Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/contact" className="nav-link" onClick={() => setIsOpen(false)}>Contact</Link>
-            </li>
+            {navItems.map((item) => (
+              <li className="nav-item" key={item.to}>
+                <Link 
+                  to={item.to} 
+                  className={`nav-link ${location.pathname === item.to ? 'active' : ''}`} 
+                  onClick={() => setIsOpen(false)}
+                >
+                  <FontAwesomeIcon icon={item.icon} className="me-2" />
+                  {item.text}
+                </Link>
+              </li>
+            ))}
           </ul>
           <div className="dropdown">
             <button 
