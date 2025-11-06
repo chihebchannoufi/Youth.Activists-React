@@ -20,7 +20,7 @@ function Home() {
         <h2 className="text-center mb-5">What Our Members Say</h2>
         <Row className="mb-5">
           <Col md={4} className="mb-4">
-            <Card className="h-100 shadow-sm">
+            <Card className="h-100 shadow-sm testimonial-card">
               <Card.Body className="d-flex flex-column">
                 <FontAwesomeIcon icon={faQuoteLeft} size="2x" className="text-primary mb-3" />
                 <Card.Text className="flex-grow-1">
@@ -33,7 +33,7 @@ function Home() {
             </Card>
           </Col>
           <Col md={4} className="mb-4">
-            <Card className="h-100 shadow-sm">
+            <Card className="h-100 shadow-sm testimonial-card">
               <Card.Body className="d-flex flex-column">
                 <FontAwesomeIcon icon={faQuoteLeft} size="2x" className="text-primary mb-3" />
                 <Card.Text className="flex-grow-1">
@@ -46,7 +46,7 @@ function Home() {
             </Card>
           </Col>
           <Col md={4} className="mb-4">
-            <Card className="h-100 shadow-sm">
+            <Card className="h-100 shadow-sm testimonial-card">
               <Card.Body className="d-flex flex-column">
                 <FontAwesomeIcon icon={faQuoteLeft} size="2x" className="text-primary mb-3" />
                 <Card.Text className="flex-grow-1">
@@ -62,13 +62,13 @@ function Home() {
 
         <Carousel>
           <Carousel.Item>
-            <img className="d-block w-100 carousel-image" src="/images/partner.png" alt="Youth in action" />
+            <img className="d-block w-100 carousel-image partner-image" src="/images/partner.png" alt="Youth in action" />
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100 carousel-image" src="/images/partner.png" alt="Community project" />
+            <img className="d-block w-100 carousel-image partner-image" src="/images/partner.png" alt="Community project" />
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100 carousel-image" src="/images/partner.png" alt="Global network" />
+            <img className="d-block w-100 carousel-image partner-image" src="/images/partner.png" alt="Global network" />
           </Carousel.Item>
         </Carousel>
       </Container>
