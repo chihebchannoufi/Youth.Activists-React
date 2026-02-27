@@ -1,0 +1,116 @@
+{
+    "ar": {
+        "hero": {
+            "title": "منظمة الشباب الناشط",
+            "subtitle": "Engagement, Échange, Travail intense et constructif",
+            "description": "منظمة غير حكومية تهدف إلى تعزيز روح المواطنة بين الشباب",
+            "buttons": {
+                "join": "انضم إلينا",
+                "contact": "اتصل بنا"
+            }
+        },
+        "stats": {
+            "title": "أرقامنا الرئيسية",
+            "items": [
+                {
+                    "number": "8+",
+                    "label": "مشاريع منجزة"
+                },
+                {
+                    "number": "500+",
+                    "label": "شاب مستفيد"
+                },
+                {
+                    "number": "6",
+                    "label": "سنوات من الخبرة"
+                },
+                {
+                    "number": "15+",
+                    "label": "شريك"
+                }
+            ]
+        },
+        "socialMedia": {
+            "title": "تابعنا",
+            "platforms": [
+                {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/YouthActivistsOrganisation",
+                    "icon": "facebook"
+                },
+                {
+                    "name": "Instagram",
+                    "url": "https://www.instagram.com/youth_activist/",
+                    "icon": "instagram"
+                },
+                {
+                    "name": "X",
+                    "url": "https://x.com/home",
+                    "icon": "twitter"
+                },
+                {
+                    "name": "LinkedIn",
+                    "url": "https://www.linkedin.com/feed/",
+                    "icon": "linkedin"
+                }
+            ]
+        }
+    },
+    "fr": {
+        "hero": {
+            "title": "Youth Activists Organization",
+            "subtitle": "Engagement, Échange, Travail intense et constructif",
+            "description": "Une organisation non gouvernementale visant à promouvoir l'esprit de citoyenneté parmi les jeunes",
+            "buttons": {
+                "join": "Nous rejoindre",
+                "contact": "Nous contacter"
+            }
+        },
+        "stats": {
+            "title": "Nos chiffres clés",
+            "items": [
+                {
+                    "number": "8+",
+                    "label": "Projets réalisés"
+                },
+                {
+                    "number": "500+",
+                    "label": "Jeunes bénéficiaires"
+                },
+                {
+                    "number": "6",
+                    "label": "Années d'expérience"
+                },
+                {
+                    "number": "15+",
+                    "label": "Partenaires"
+                }
+            ]
+        },
+        "socialMedia": {
+            "title": "Suivez-nous",
+            "platforms": [
+                {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/YouthActivistsOrganisation",
+                    "icon": "facebook"
+                },
+                {
+                    "name": "Instagram",
+                    "url": "https://www.instagram.com/youth_activist/",
+                    "icon": "instagram"
+                },
+                {
+                    "name": "X",
+                    "url": "https://x.com/home",
+                    "icon": "twitter"
+                },
+                {
+                    "name": "LinkedIn",
+                    "url": "https://www.linkedin.com/feed/",
+                    "icon": "linkedin"
+                }
+            ]
+        }
+    }
+}

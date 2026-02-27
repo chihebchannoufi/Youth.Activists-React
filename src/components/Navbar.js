@@ -1,30 +1,41 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCog, faLock, faHome, faInfoCircle, faUsers, faProjectDiagram, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { 
+  faHome, faInfoCircle, faUsers, 
+  faProjectDiagram, faEnvelope, faCalendarAlt, faHandshake, 
+  faUserPlus, faLanguage, faMoon, faSun
+} from '@fortawesome/free-solid-svg-icons';
+import { useLanguage } from '../contexts/LanguageContext';
+import { useTheme } from '../contexts/ThemeContext';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const { language, toggleLanguage, t } = useLanguage();
+  const { isDarkMode, toggleTheme } = useTheme();
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
 
   const navItems = [
-    { to: '/', text: 'Home', icon: faHome },
-    { to: '/about', text: 'About', icon: faInfoCircle },
-    { to: '/clubs', text: 'Club', icon: faUsers },
-    { to: '/projects', text: 'Projet', icon: faProjectDiagram },
-    { to: '/contact', text: 'Contact', icon: faEnvelope },
+    { to: '/', text: t('navbar.home'), icon: faHome },
+    { to: '/about', text: t('navbar.about'), icon: faInfoCircle },
+    { to: '/projects', text: t('navbar.projects'), icon: faProjectDiagram },
+    { to: '/events', text: t('navbar.events'), icon: faCalendarAlt },
+    { to: '/partners', text: t('navbar.partners'), icon: faHandshake },
+    { to: '/join', text: t('navbar.join'), icon: faUserPlus },
+    { to: '/contact', text: t('navbar.contact'), icon: faEnvelope },
   ];
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top" style={{ backgroundColor: '#009aa4' }}>
       <div className="container">
         <Link to="/" className="navbar-brand">
           <img src="/images/youth.png" alt="Logo" style={{width: '40px'}} className="rounded-pill me-2" />
-          YOUTH ACTIVISTS
+          <span className="d-none d-md-inline">YOUTH ACTIVISTS</span>
+          <span className="d-inline d-md-none">YA</span>
         </Link>
         <button 
           className="navbar-toggler" 
@@ -51,22 +62,24 @@ function Navbar() {
               </li>
             ))}
           </ul>
-          <div className="dropdown">
+          <div className="d-flex align-items-center gap-2">
+            {/* Language Toggle */}
             <button 
-              type="button" 
-              className="btn btn-dark dropdown-toggle" 
-              data-bs-toggle="dropdown" 
-              aria-expanded="false"
+              className="btn btn-outline-light btn-sm" 
+              onClick={toggleLanguage}
+              title={language === 'ar' ? 'Switch to French' : 'Passer à l\'arabe'}
             >
-              <FontAwesomeIcon icon={faCog} />
+              <FontAwesomeIcon icon={faLanguage} className="me-1" />
+              {language === 'ar' ? 'FR' : 'AR'}
             </button>
-            <ul className="dropdown-menu dropdown-menu-end">
-              <li>
-                <Link to="http://127.0.0.1:8000/login" className="dropdown-item" onClick={() => setIsOpen(false)}>
-                  <FontAwesomeIcon icon={faLock} /> Espace Membre
-                </Link>
-              </li>
-            </ul>
+            {/* Dark Mode Toggle */}
+            <button 
+              className="btn btn-outline-light btn-sm" 
+              onClick={toggleTheme}
+              title={isDarkMode ? 'Light Mode' : 'Dark Mode'}
+            >
+              <FontAwesomeIcon icon={isDarkMode ? faSun : faMoon} />
+            </button>
           </div>
         </div>
       </div>

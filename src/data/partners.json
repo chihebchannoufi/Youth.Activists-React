@@ -1,0 +1,94 @@
+{
+    "ar": {
+        "title": "شركاؤنا",
+        "description": "نفخر بالعمل مع شركائنا لتحقيق أهدافنا المشتركة",
+        "callToAction": {
+            "title": "كن شريكاً",
+            "description": "هل تريد التعاون معنا؟ نحن منفتحون على الشراكات الجديدة",
+            "button": "اتصل بنا"
+        },
+        "partners": [
+            {
+                "id": "partner1",
+                "name": "مؤسسة الأمل للتنمية",
+                "category": "ngo",
+                "logo": "/images/partners/amal.png",
+                "website": "https://www.amal-foundation.org"
+            },
+            {
+                "id": "partner2",
+                "name": "شركة المستقبل للتكنولوجيا",
+                "category": "private",
+                "logo": "/images/partners/futuretech.png",
+                "website": "https://www.futuretech.com"
+            },
+            {
+                "id": "partner3",
+                "name": "مجلس المدينة",
+                "category": "public",
+                "logo": "/images/partners/citycouncil.png",
+                "website": "https://www.citycouncil.gov"
+            }
+        ],
+        "categories": [
+            {
+                "id": "ngo",
+                "name": "جمعيات"
+            },
+            {
+                "id": "private",
+                "name": "القطاع الخاص"
+            },
+            {
+                "id": "public",
+                "name": "القطاع العام"
+            }
+        ]
+    },
+    "fr": {
+        "title": "Nos partenaires",
+        "description": "Nous sommes fiers de travailler avec nos partenaires pour atteindre nos objectifs communs",
+        "callToAction": {
+            "title": "Devenez partenaire",
+            "description": "Vous souhaitez collaborer avec nous ? Nous sommes ouverts aux nouveaux partenariats",
+            "button": "Contactez-nous"
+        },
+        "partners": [
+            {
+                "id": "partner1",
+                "name": "Fondation Amal pour le Développement",
+                "category": "ngo",
+                "logo": "/images/partners/amal.png",
+                "website": "https://www.amal-foundation.org"
+            },
+            {
+                "id": "partner2",
+                "name": "FutureTech Solutions",
+                "category": "private",
+                "logo": "/images/partners/futuretech.png",
+                "website": "https://www.futuretech.com"
+            },
+            {
+                "id": "partner3",
+                "name": "Conseil Municipal",
+                "category": "public",
+                "logo": "/images/partners/citycouncil.png",
+                "website": "https://www.citycouncil.gov"
+            }
+        ],
+        "categories": [
+            {
+                "id": "ngo",
+                "name": "ONG"
+            },
+            {
+                "id": "private",
+                "name": "Secteur privé"
+            },
+            {
+                "id": "public",
+                "name": "Secteur public"
+            }
+        ]
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "ar": {
+        "title": "اتصل بنا",
+        "subtitle": "لديك مشروع في ذهنك؟ اتصل بنا هنا",
+        "info": {
+            "title": "معلومات الاتصال",
+            "address": " حي الجامع، الكريب، تونس، 6120",
+            "phone": " +216 93 102 455",
+            "email": " mustiyouthactivists@gmail.com"
+        },
+        "form": {
+            "title": "أرسل لنا رسالة",
+            "fields": {
+                "name": "الاسم",
+                "email": "البريد الإلكتروني",
+                "subject": "الموضوع",
+                "message": "الرسالة"
+            },
+            "button": "إرسال"
+        },
+        "map": {
+            "title": "موقعنا",
+            "url": "https://www.google.com/maps/place/Youth+Activists+Organisation/@36.3292651,9.1363763,19.38z/data=!4m15!1m8!3m7!1s0x12fb7a28c27b77af:0x5f61106c11ea8d2a!2sEl+Krib,+Tunisie!3b1!8m2!3d36.3287339!4d9.0792263!16s%2Fm%2F0b6glf3!3m5!1s0x12fb7f9090f2b6bd:0x2262e65525f20ce0!8m2!3d36.3294167!4d9.1366764!16s%2Fg%2F11ghpr8p56?hl=fr&entry=ttu&g_ep=EgoyMDI2MDIyNC4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "socialMedia": {
+            "title": "تابعنا على وسائل التواصل الاجتماعي",
+            "platforms": [
+                {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/YouthActivistsOrganisation",
+                    "icon": "facebook"
+                },
+                {
+                    "name": "Instagram",
+                    "url": "https://www.instagram.com/youth_activist/",
+                    "icon": "instagram"
+                },
+                {
+                    "name": "X",
+                    "url": "https://x.com/home",
+                    "icon": "twitter"
+                },
+                {
+                    "name": "LinkedIn",
+                    "url": "https://www.linkedin.com/feed/",
+                    "icon": "linkedin"
+                }
+            ]
+        }
+    },
+    "fr": {
+        "title": "Contactez-nous",
+        "subtitle": "Vous avez un projet en tête ? Contactez-nous ici",
+        "info": {
+            "title": "Informations de contact",
+            "address": " Cité la mosquée, Le Krib, Tunisie, 6120",
+            "phone": " +216 93 102 455",
+            "email": " mustiyouthactivists@gmail.com"
+        },
+        "form": {
+            "title": "Envoyez-nous un message",
+            "fields": {
+                "name": "Nom",
+                "email": "E-mail",
+                "subject": "Sujet",
+                "message": "Message"
+            },
+            "button": "Envoyer"
+        },
+        "map": {
+            "title": "Notre localisation",
+            "url": "https://www.google.com/maps/place/Youth+Activists+Organisation/@36.3292651,9.1363763,19.38z/data=!4m15!1m8!3m7!1s0x12fb7a28c27b77af:0x5f61106c11ea8d2a!2sEl+Krib,+Tunisie!3b1!8m2!3d36.3287339!4d9.0792263!16s%2Fm%2F0b6glf3!3m5!1s0x12fb7f9090f2b6bd:0x2262e65525f20ce0!8m2!3d36.3294167!4d9.1366764!16s%2Fg%2F11ghpr8p56?hl=fr&entry=ttu&g_ep=EgoyMDI2MDIyNC4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "socialMedia": {
+            "title": "Suivez-nous sur les réseaux sociaux",
+            "platforms": [
+                {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/YouthActivistsOrganisation",
+                    "icon": "facebook"
+                },
+                {
+                    "name": "Instagram",
+                    "url": "https://www.instagram.com/youth_activist/",
+                    "icon": "instagram"
+                },
+                {
+                    "name": "X",
+                    "url": "https://x.com/home",
+                    "icon": "twitter"
+                },
+                {
+                    "name": "LinkedIn",
+                    "url": "https://www.linkedin.com/feed/",
+                    "icon": "linkedin"
+                }
+            ]
+        }
+    }
+}

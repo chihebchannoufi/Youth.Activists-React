@@ -1,0 +1,54 @@
+{
+    "ar": {
+        "title": "ماذا يقول أعضاؤنا",
+        "testimonials": [
+            {
+                "id": 1,
+                "name": "شهاب شنوفي",
+                "role": "عضو منذ 2020",
+                "text": "الانضمام إلى منظمة الشباب الناشط كان تجربة تحويلية. لقد تعلمت الكثير عن المشاركة المجتمعية وصنعت أصدقاء للحياة!",
+                "avatar": "/images/testimonials/avatar1.jpg"
+            },
+            {
+                "id": 2,
+                "name": "شهاب شنوفي",
+                "role": "متطوعة",
+                "text": "المشاريع التي نعمل عليها في منظمة الشباب الناشط ذات تأثير حقيقي. من المذهل أن نرى كيف يمكن لجهودنا أن تحدث فرقًا حقيقيًا في مجتمعنا.",
+                "avatar": "/images/testimonials/avatar2.jpg"
+            },
+            {
+                "id": 3,
+                "name": "شهاب شنوفي",
+                "role": "عضو نشط",
+                "text": "منحتني منظمة الشباب الناشط المنصة والموارد للدفاع عن القضايا التي أنا شغوف بها. إنه لأمر ممكّن أن أكون جزءًا من مجتمع داعم.",
+                "avatar": "/images/testimonials/avatar3.jpg"
+            }
+        ]
+    },
+    "fr": {
+        "title": "Ce que disent nos membres",
+        "testimonials": [
+            {
+                "id": 1,
+                "name": "Chiheb Channoufi",
+                "role": "Membre depuis 2020",
+                "text": "Rejoindre Youth Activists a été une expérience transformatrice. J'ai tellement appris sur l'engagement communautaire et je me suis fait des amis pour la vie !",
+                "avatar": "/images/testimonials/avatar1.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Chiheb Channoufi",
+                "role": "Bénévole",
+                "text": "Les projets sur lesquels nous travaillons à Youth Activists sont vraiment impactants. C'est incroyable de voir comment nos efforts peuvent faire une réelle différence dans notre communauté.",
+                "avatar": "/images/testimonials/avatar2.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Chiheb Channoufi",
+                "role": "Membre actif",
+                "text": "Youth Activists m'a donné la plateforme et les ressources pour défendre les causes qui me passionnent. C'est valorisant de faire partie d'une communauté aussi solidaire.",
+                "avatar": "/images/testimonials/avatar3.jpg"
+            }
+        ]
+    }
+}

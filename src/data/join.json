@@ -1,0 +1,58 @@
+{
+    "ar": {
+        "title": "كن جزءًا من شيء أكبر",
+        "subtitle": "انضم إلى منظمة الشباب الناشط",
+        "description": "انضم إلينا واحدث فرقًا في مجتمعك",
+        "form": {
+            "title": "استمارة الانضمام",
+            "fields": {
+                "name": "الاسم الكامل",
+                "birthDate": "تاريخ الميلاد",
+                "birthPlace": "مكان الميلاد",
+                "residence": "مكان الإقامة",
+                "gender": "الجنس",
+                "male": "ذكر",
+                "female": "أنثى",
+                "email": "البريد الإلكتروني",
+                "phone": "رقم الهاتف",
+                "motivation": "لماذا تريد الانضمام إلى المنظمة؟",
+                "skills": "هل لديك مهارات؟ اذكرها",
+                "experience": "هل لديك تجربة سابقة في العمل التطوعي؟",
+                "engagementType": "نوع الالتزام المفضل",
+                "confirmation": "أؤكد صحة المعلومات المقدمة"
+            },
+            "buttons": {
+                "submit": "إرسال الطلب",
+                "reset": "إعادة تعيين"
+            }
+        }
+    },
+    "fr": {
+        "title": "Soyez partie prenante de quelque chose de plus grand",
+        "subtitle": "Rejoignez Youth Activists Organization",
+        "description": "Rejoignez-nous et faites la différence dans votre communauté",
+        "form": {
+            "title": "Formulaire d'adhésion",
+            "fields": {
+                "name": "Nom complet",
+                "birthDate": "Date de naissance",
+                "birthPlace": "Lieu de naissance",
+                "residence": "Lieu de résidence",
+                "gender": "Genre",
+                "male": "Homme",
+                "female": "Femme",
+                "email": "E-mail",
+                "phone": "Numéro de téléphone",
+                "motivation": "Pourquoi souhaitez-vous rejoindre l'organisation ?",
+                "skills": "Avez-vous des compétences ? Mentionnez-les",
+                "experience": "Avez-vous une expérience antérieure dans le travail bénévole ?",
+                "engagementType": "Type d'engagement préféré",
+                "confirmation": "Je confirme l'exactitude des informations fournies"
+            },
+            "buttons": {
+                "submit": "Envoyer la demande",
+                "reset": "Réinitialiser"
+            }
+        }
+    }
+}

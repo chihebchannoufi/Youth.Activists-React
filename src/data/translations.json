@@ -1,0 +1,72 @@
+{
+    "ar": {
+        "navbar": {
+            "home": "الرئيسية",
+            "about": "من نحن",
+            "projects": "المشاريع",
+            "events": "الفعاليات",
+            "partners": "الشركاء",
+            "media": "الوسائط",
+            "join": "انضم إلينا",
+            "contact": "اتصل بنا",
+            "memberSpace": "فضاء الأعضاء"
+        },
+        "footer": {
+            "about": "حول المنظمة",
+            "quickLinks": "روابط سريعة",
+            "contact": "اتصل بنا",
+            "followUs": "تابعنا",
+            "copyright": "© 2024 منظمة الشباب الناشط. جميع الحقوق محفوظة.",
+            "slogan": "Engagement, Échange, Travail intense et constructif"
+        },
+        "common": {
+            "readMore": "اقرأ المزيد",
+            "viewAll": "عرض الكل",
+            "filter": "تصفية",
+            "search": "بحث",
+            "loading": "جارٍ التحميل...",
+            "noResults": "لا توجد نتائج",
+            "back": "رجوع",
+            "next": "التالي",
+            "previous": "السابق",
+            "close": "إغلاق",
+            "submit": "إرسال",
+            "cancel": "إلغاء"
+        }
+    },
+    "fr": {
+        "navbar": {
+            "home": "Accueil",
+            "about": "À propos",
+            "projects": "Projets",
+            "events": "Événements",
+            "partners": "Partenaires",
+            "media": "Médias",
+            "join": "Nous rejoindre",
+            "contact": "Contact",
+            "memberSpace": "Espace Membre"
+        },
+        "footer": {
+            "about": "À propos de l'organisation",
+            "quickLinks": "Liens rapides",
+            "contact": "Contactez-nous",
+            "followUs": "Suivez-nous",
+            "copyright": "© 2024 Youth Activists Organization. Tous droits réservés.",
+            "slogan": "Engagement, Échange, Travail intense et constructif"
+        },
+        "common": {
+            "readMore": "Lire plus",
+            "viewAll": "Voir tout",
+            "filter": "Filtrer",
+            "search": "Rechercher",
+            "loading": "Chargement...",
+            "noResults": "Aucun résultat",
+            "back": "Retour",
+            "next": "Suivant",
+            "previous": "Précédent",
+            "close": "Fermer",
+            "submit": "Envoyer",
+            "cancel": "Annuler"
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "ar": {
+        "title": "من نحن",
+        "presentation": {
+            "title": "منظمة الشباب الناشط",
+            "content": "منظمة الشباب الناشط منظمة غير حكومية تخضع لأحكام المرسوم عدد 88 المنظم للجمعيات، تأسست في 24 فيفري 2018.",
+            "zone": " الكريب – سليانة",
+            "description": "منظمة شبابية ناشطة في معتمدية الكريب ولاية سليانة، تهدف إلى تعزيز روح المواطنة بين الشباب وتدعيم قدراتهم الاجتماعية والاقتصادية والثقافية. كما تسعى المنظمة إلى إيجاد حلول لانشغالات الشباب ودعم مشاركتهم في الحياة العامة ونشر الوعي القانوني."
+        },
+        "objectives": {
+            "title": "أهدافنا",
+            "items": [
+                {
+                    "icon": "citizenship",
+                    "title": "المواطنة",
+                    "description": "تعزيز روح المواطنة والمشاركة الفعالة في المجتمع"
+                },
+                {
+                    "icon": "participation",
+                    "title": "المشاركة الشبابية",
+                    "description": "دعم مشاركة الشباب في الحياة العامة والقرارات المجتمعية"
+                },
+                {
+                    "icon": "legal",
+                    "title": "الثقافة القانونية",
+                    "description": "نشر الوعي القانوني بين الشباب وتعريفهم بحقوقهم وواجباتهم"
+                }
+            ]
+        },
+        "vision": {
+            "title": "رؤيتنا",
+            "content": "نسعى لتكوين جيل من الشباب الواعي والمشارك والفاعل في بناء مجتمع ديمقراطي ومزدهر."
+        },
+        "methodology": {
+            "title": "منهجيتنا",
+            "content": "نعتمد على المنهجية التشاركية في جميع أنشطتنا ومشاريعنا، حيث يشارك الشباب في التخطيط والتنفيذ والتقييم."
+        },
+        "organization": {
+            "title": "هيكلة المنظمة",
+            "structure": [
+                {
+                    "name": "الإدارة",
+                    "link": "#"
+                },
+                {
+                    "name": "المكتب التنفيذي",
+                    "link": "#"
+                },
+                {
+                    "name": "الأعضاء",
+                    "link": "#"
+                },
+                {
+                    "name": "المتطوعون",
+                    "link": "#"
+                }
+            ]
+        }
+    },
+    "fr": {
+        "title": "À propos de nous",
+        "presentation": {
+            "title": "Youth Activists Organization",
+            "content": "Youth Activists Organization est une organisation non gouvernementale soumise aux dispositions du décret n° 88 régissant les associations, fondée le 24 février 2018.",
+            "zone": " Le Krib – Siliana",
+            "description": "Une organisation de jeunesse active dans la délégation du Krib, gouvernorat de Siliana, qui vise à promouvoir l'esprit de citoyenneté parmi les jeunes et à renforcer leurs capacités sociales, économiques et culturelles. L'organisation s'engage également à trouver des solutions aux préoccupations des jeunes, à soutenir leur participation dans la vie publique et à diffuser la sensibilisation juridique."
+        },
+        "objectives": {
+            "title": "Nos objectifs",
+            "items": [
+                {
+                    "icon": "citizenship",
+                    "title": "Citoyenneté",
+                    "description": "Promouvoir l'esprit de citoyenneté et la participation active dans la société"
+                },
+                {
+                    "icon": "participation",
+                    "title": "Participation Jeunesse",
+                    "description": "Soutenir la participation des jeunes dans la vie publique et les décisions communautaires"
+                },
+                {
+                    "icon": "legal",
+                    "title": "Culture Juridique",
+                    "description": "Diffuser la sensibilisation juridique parmi les jeunes et les informer de leurs droits et devoirs"
+                }
+            ]
+        },
+        "vision": {
+            "title": "Notre vision",
+            "content": "Nous aspirons à former une génération de jeunes conscients, participants et actifs dans la construction d'une société démocratique et prospère."
+        },
+        "methodology": {
+            "title": "Notre méthodologie",
+            "content": "Nous adoptons une méthodologie participative dans toutes nos activités et projets, où les jeunes participent à la planification, à la mise en œuvre et à l'évaluation."
+        },
+        "organization": {
+            "title": "Structure de l'organisation",
+            "structure": [
+                {
+                    "name": "Administration",
+                    "link": "#"
+                },
+                {
+                    "name": "Bureau exécutif",
+                    "link": "#"
+                },
+                {
+                    "name": "Membres",
+                    "link": "#"
+                },
+                {
+                    "name": "Volontaires",
+                    "link": "#"
+                }
+            ]
+        }
+    }
+}

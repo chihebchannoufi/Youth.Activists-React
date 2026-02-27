@@ -1,0 +1,96 @@
+{
+    "ar": {
+        "title": "الأنشطة والفعاليات",
+        "upcomingTitle": "الفعاليات القادمة",
+        "pastTitle": "الفعاليات السابقة",
+        "upcomingEvents": [
+            {
+                "id": "event1",
+                "title": "ورشة ريادة الأعمال للشباب",
+                "date": "2026-04-15",
+                "time": "10:00",
+                "location": "المركز الثقافي البلدي",
+                "category": "تكوين",
+                "description": "ورشة تدريبية حول أساسيات ريادة الأعمال وتطوير المشاريع لفائدة الشباب.",
+                "image": "/images/events/workshop1.jpg",
+                "registrationLink": "https://example.org/register/workshop"
+            },
+            {
+                "id": "event2",
+                "title": "حملة تشجير تطوعية",
+                "date": "2026-05-10",
+                "time": "09:00",
+                "location": "الحديقة العمومية الكبرى",
+                "category": "بيئة",
+                "description": "مبادرة بيئية لغرس 1000 شجرة بمشاركة متطوعين من مختلف الأعمار.",
+                "image": "/images/events/treeplanting.jpg",
+                "registrationLink": "https://example.org/register/tree"
+            }
+        ],
+        "pastEvents": [
+            {
+                "id": "event3",
+                "title": "قافلة طبية مجانية",
+                "date": "2025-11-20",
+                "location": "دار الشباب الحي الجديد",
+                "category": "صحة",
+                "description": "تنظيم قافلة طبية متعددة التخصصات لفائدة الأسر ذات الدخل المحدود.",
+                "image": "/images/events/medical.jpg",
+                "attendees": "450 مشارك",
+                "beneficiaries": "380 مستفيد",
+                "gallery": [
+                    "/images/events/gallery/medical1.jpg",
+                    "/images/events/gallery/medical2.jpg",
+                    "/images/events/gallery/medical3.jpg"
+                ]
+            }
+        ]
+    },
+    "fr": {
+        "title": "Activités et Événements",
+        "upcomingTitle": "Événements à venir",
+        "pastTitle": "Événements passés",
+        "upcomingEvents": [
+            {
+                "id": "event1",
+                "title": "Atelier d’entrepreneuriat pour les jeunes",
+                "date": "2026-04-15",
+                "time": "10:00",
+                "location": "Centre culturel municipal",
+                "category": "Formation",
+                "description": "Atelier de formation sur les bases de l’entrepreneuriat et le développement de projets pour les jeunes.",
+                "image": "/images/events/workshop1.jpg",
+                "registrationLink": "https://example.org/register/workshop"
+            },
+            {
+                "id": "event2",
+                "title": "Campagne de reboisement solidaire",
+                "date": "2026-05-10",
+                "time": "09:00",
+                "location": "Grand parc public",
+                "category": "Environnement",
+                "description": "Initiative écologique visant à planter 1000 arbres avec la participation de bénévoles.",
+                "image": "/images/events/treeplanting.jpg",
+                "registrationLink": "https://example.org/register/tree"
+            }
+        ],
+        "pastEvents": [
+            {
+                "id": "event3",
+                "title": "Caravane médicale gratuite",
+                "date": "2025-11-20",
+                "location": "Maison des jeunes - Quartier Annour",
+                "category": "Santé",
+                "description": "Organisation d’une caravane médicale pluridisciplinaire au profit des familles à revenu limité.",
+                "image": "/images/events/medical.jpg",
+                "attendees": "450 participants",
+                "beneficiaries": "380 bénéficiaires",
+                "gallery": [
+                    "/images/events/gallery/medical1.jpg",
+                    "/images/events/gallery/medical2.jpg",
+                    "/images/events/gallery/medical3.jpg"
+                ]
+            }
+        ]
+    }
+}

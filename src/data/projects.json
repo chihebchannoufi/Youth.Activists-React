@@ -1,0 +1,116 @@
+{
+    "ar": {
+        "title": "مشاريعنا وبرامجنا",
+        "categories": [
+            {
+                "id": "education",
+                "name": "التعليم"
+            },
+            {
+                "id": "health",
+                "name": "الصحة"
+            },
+            {
+                "id": "environment",
+                "name": "البيئة"
+            }
+        ],
+        "completed": {
+            "title": "المشاريع المنجزة",
+            "projects": [
+                {
+                    "id": "p1",
+                    "title": "برنامج دعم التمدرس القروي",
+                    "category": "education",
+                    "year": "2022",
+                    "image": "/images/projects/education1.jpg",
+                    "description": "مشروع يهدف إلى دعم الأطفال في المناطق القروية من خلال توفير اللوازم المدرسية والدعم التربوي.",
+                    "beneficiaries": "250 طفل",
+                    "duration": "12 شهر"
+                },
+                {
+                    "id": "p2",
+                    "title": "قافلة طبية متعددة التخصصات",
+                    "category": "health",
+                    "year": "2023",
+                    "image": "/images/projects/health1.jpg",
+                    "description": "تنظيم قافلة طبية لفائدة الأسر المعوزة تشمل فحوصات واستشارات مجانية.",
+                    "beneficiaries": "600 مستفيد",
+                    "duration": "3 أيام"
+                }
+            ]
+        },
+        "ongoing": {
+            "title": "المشاريع الجارية",
+            "projects": [
+                {
+                    "id": "p3",
+                    "title": "مبادرة التشجير الأخضر",
+                    "category": "environment",
+                    "year": "2024",
+                    "image": "/images/projects/environment1.jpg",
+                    "description": "حملة لغرس 5000 شجرة في المناطق الحضرية والقروية لتعزيز الوعي البيئي.",
+                    "status": "قيد التنفيذ",
+                    "progress": "65%"
+                }
+            ]
+        }
+    },
+    "fr": {
+        "title": "Nos projets et programmes",
+        "categories": [
+            {
+                "id": "education",
+                "name": "Éducation"
+            },
+            {
+                "id": "health",
+                "name": "Santé"
+            },
+            {
+                "id": "environment",
+                "name": "Environnement"
+            }
+        ],
+        "completed": {
+            "title": "Projets complétés",
+            "projects": [
+                {
+                    "id": "p1",
+                    "title": "Programme de soutien scolaire rural",
+                    "category": "education",
+                    "year": "2022",
+                    "image": "/images/projects/education1.jpg",
+                    "description": "Projet visant à soutenir les enfants en milieu rural en fournissant des fournitures scolaires et un accompagnement pédagogique.",
+                    "beneficiaries": "250 enfants",
+                    "duration": "12 mois"
+                },
+                {
+                    "id": "p2",
+                    "title": "Caravane médicale pluridisciplinaire",
+                    "category": "health",
+                    "year": "2023",
+                    "image": "/images/projects/health1.jpg",
+                    "description": "Organisation d’une caravane médicale au profit des familles défavorisées avec consultations gratuites.",
+                    "beneficiaries": "600 bénéficiaires",
+                    "duration": "3 jours"
+                }
+            ]
+        },
+        "ongoing": {
+            "title": "Projets en cours",
+            "projects": [
+                {
+                    "id": "p3",
+                    "title": "Initiative verte de reboisement",
+                    "category": "environment",
+                    "year": "2024",
+                    "image": "/images/projects/environment1.jpg",
+                    "description": "Campagne de plantation de 5000 arbres en zones urbaines et rurales pour renforcer la sensibilisation environnementale.",
+                    "status": "En cours",
+                    "progress": "65%"
+                }
+            ]
+        }
+    }
+}
