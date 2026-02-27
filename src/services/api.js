@@ -74,10 +74,13 @@ export const getTranslations = async () => {
   });
 };
 
+// Get API base URL from environment variable
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+
 // Submit contact form
 export const submitContactForm = async (formData) => {
   try {
-    const response = await fetch('http://localhost:5000/message/store', {
+    const response = await fetch(`${API_BASE_URL}/message/store`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),
@@ -97,7 +100,7 @@ export const submitContactForm = async (formData) => {
 // Submit membership/join form
 export const submitJoinForm = async (formData) => {
   try {
-    const response = await fetch('http://localhost:5000/inscription/store', {
+    const response = await fetch(`${API_BASE_URL}/inscription/store`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),
